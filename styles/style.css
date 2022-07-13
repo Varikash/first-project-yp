@@ -82,19 +82,25 @@
   text-align: center;
   width: 60%;
   margin: 0 auto 20px auto;
+  line-height: 1.15;
+  font-size: 60px;
+  font-weight: 600;
 }
 
 .section-subtitle {
   text-align: center;
   width: 60%;
   margin: 0 auto;
+  line-height: 34px;
+  font-size: 24px;
+  font-weight: normal;
 }
 
 .cards {
   margin: 0 auto;
   max-width: 920px;
   display: flex;
-  justify-content: space-between;
+  align-items: baseline;
   flex-wrap: wrap;
 }
 
@@ -102,6 +108,11 @@
 
 .cards__item {
   max-width: 240px;
+}
+
+/* присвоил отдельный класс центральным карточкам для настройки margin */
+.card_middle {
+  margin: 0 100px;
 }
 
 .cards__image{
@@ -113,3 +124,20 @@
   width: 160px;
   height: 160px;
 }
+
+.cards__title {
+  text-align: center;
+  line-height: 1.15;
+  font-size: 24px;
+  font-weight: 600;
+  margin: 0 0 16px 0;
+}
+
+.cards__description {
+  text-align: center;
+  line-height: 23px;
+  font-size: 18px;
+  font-weight: normal;
+  margin: 0;
+}
+/* ------------ конец секции ---------------- */
