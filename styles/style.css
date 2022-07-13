@@ -6,7 +6,7 @@
   /* выше установили ограничение по максимальной ширине */
   margin: 0 auto;
   /* выше для экранов больше 1600px отцентрировали весь контент */
-  font-family: 'Helvetica Neue', Arial, sans-serif;
+  font-family: 'Inter', Arial, sans-serif;
 }
 
 .header {
@@ -28,4 +28,88 @@
   color: white;
   margin-right: 0;
   margin-top: 80px;
+}
+
+/* объект обертка, задающий границы для всего контента, который верстается в секциях */
+.wrapper {
+  margin: 100px auto;
+  width: 80%;
+}
+
+/* ----------- секция description ---------------- */
+.two-columns {
+  display: flex;
+  justify-content: space-between;
+}
+
+.two-columns__brief {
+  width: 175px;
+  align-self: stretch;
+}
+
+.two-columns__main-text {
+  width: 80%;
+  min-width: 784px;
+}
+
+.two-columns__headline {
+  font-size: 18px;
+  font-weight: normal;
+  line-height: 1.2;
+  color: #2f80ed;
+  margin: 0 0 30px 0;
+}
+
+.two-columns__paragraph {
+  font-size: 24px;
+  font-weight: normal;
+  line-height: 34px;
+  margin-top: 0;
+  /* обнуляю барузерные отступы для <p> */
+  margin-bottom: 30px;
+  
+}
+
+.two-columns__span-accent {
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 34px;
+}
+/* ------------ конец секции ---------------- */
+
+/*------------- секция techniques -----------*/
+.section-title {
+  text-align: center;
+  width: 60%;
+  margin: 0 auto 20px auto;
+}
+
+.section-subtitle {
+  text-align: center;
+  width: 60%;
+  margin: 0 auto;
+}
+
+.cards {
+  margin: 0 auto;
+  max-width: 920px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+/* настройка правил для карточек */
+
+.cards__item {
+  max-width: 240px;
+}
+
+.cards__image{
+  margin: 60px 40px 43px 40px;
+}
+
+.cards_image-size {
+  border-radius: 50%;
+  width: 160px;
+  height: 160px;
 }
