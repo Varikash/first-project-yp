@@ -4,10 +4,44 @@
   /* поэтому выше установлена минимальная ширина страницы */
   max-width: 1600px;
   /* выше установили ограничение по максимальной ширине */
-  margin: 0 auto;
-  /* выше для экранов больше 1600px отцентрировали весь контент */
+}
+
+/* -----------Миксы----------- */
+
+.section_size_m {
+  margin: 100px auto;
+  width: 80%;
+}
+
+.main-text {
   font-family: 'Inter', Arial, sans-serif;
 }
+
+.block_centered {
+  margin: 0 auto;
+}
+
+.text_centered {
+  text-align: center;
+}
+
+.section-title_text_size{
+  line-height: 1.15;
+  font-size: 60px;
+  font-weight: 600;
+}
+
+.section-title_margin_set {
+  margin: 0 auto 20px auto;
+}
+
+.section-subtitle_text_size {
+  line-height: 34px;
+  font-size: 24px;
+  font-weight: normal;
+}
+
+/* ----------конец миксов------------ */
 
 .header {
   height: 100vh;
@@ -28,12 +62,6 @@
   color: white;
   margin-right: 0;
   margin-top: 80px;
-}
-
-/* объект обертка, задающий границы для всего контента, который верстается в секциях */
-.wrapper {
-  margin: 100px auto;
-  width: 80%;
 }
 
 /* ----------- секция description ---------------- */
@@ -79,29 +107,18 @@
 
 /*------------- секция techniques -----------*/
 .section-title {
-  text-align: center;
   width: 60%;
-  margin: 0 auto 20px auto;
-  line-height: 1.15;
-  font-size: 60px;
-  font-weight: 600;
 }
 
 .section-subtitle {
-  text-align: center;
   width: 60%;
-  margin: 0 auto;
-  line-height: 34px;
-  font-size: 24px;
-  font-weight: normal;
 }
 
 .cards {
-  margin: 0 auto;
   max-width: 920px;
   display: flex;
-  align-items: baseline;
   flex-wrap: wrap;
+  column-gap: 100px;
 }
 
 /* настройка правил для карточек */
@@ -110,10 +127,6 @@
   max-width: 240px;
 }
 
-/* присвоил отдельный класс центральным карточкам для настройки margin */
-.card_middle {
-  margin: 0 100px;
-}
 
 .cards__image{
   margin: 60px 40px 43px 40px;
@@ -126,7 +139,6 @@
 }
 
 .cards__title {
-  text-align: center;
   line-height: 1.15;
   font-size: 24px;
   font-weight: 600;
@@ -134,10 +146,44 @@
 }
 
 .cards__description {
-  text-align: center;
   line-height: 23px;
   font-size: 18px;
   font-weight: normal;
   margin: 0;
 }
 /* ------------ конец секции ---------------- */
+
+
+/* ----------- секция digits ---------------- */
+
+.digits_margin_set{
+  margin: 100px auto;
+}
+
+.table{
+  width: 1100px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  row-gap: 60px;
+  padding-top: 60px;
+}
+
+.table__cell {
+  width: 250px;
+}
+
+.table__heading {
+  line-height: 1.15;
+  font-size: 24px;
+  font-weight: 600;
+  margin: 0;
+  /* сброс браузерных отступов */
+}
+
+.table__text {
+  line-height: 23px;
+  font-size: 18px;
+  font-weight: normal;
+  margin: 20px 0;
+}
