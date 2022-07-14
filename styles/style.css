@@ -9,7 +9,7 @@
 /* -----------Миксы----------- */
 
 .section_size_m {
-  margin: 100px auto;
+  padding-top: 100px;
   width: 80%;
 }
 
@@ -41,20 +41,16 @@
   font-weight: normal;
 }
 
+.section_theme_dark {
+  background-color: #1f1f1f;
+}
+
 /* ----------конец миксов------------ */
 
-.header {
-  height: 100vh;
-  min-height: 600px;
-  max-height: 756px;
-  /* выше установили ограничения для секции */
-}
+
 
 /* ниже мы привели пример двух селекторов, чтобы вы вспомнили запись элемента */
-.header__square-pic {
-  height: 568px;
-  width: 568px;
-}
+
 
 /* и элемента с модификатором вида ключ-значение */
 .table__cell_theme_dark {
@@ -63,6 +59,44 @@
   margin-right: 0;
   margin-top: 80px;
 }
+
+/* ----------- секция header ---------------- */
+.header {
+  height: 100vh;
+  min-height: 600px;
+  max-height: 756px;
+  /* выше установили ограничения для секции */
+}
+
+.logo {
+  position: absolute;
+}
+
+.logo_place_header{
+
+}
+
+.header__title {
+
+}
+
+.header__subtitle {
+  position: absolute;
+  width: 388px;
+  bottom: 30px;
+  left: 64px;
+}
+
+.header__main-illustration {
+  width: 765px;
+  height: 608px;
+}
+
+.header__square-pic {
+  height: 568px;
+  width: 568px;
+}
+/* ------------ конец секции ----------------*/
 
 /* ----------- секция description ---------------- */
 .two-columns {
@@ -155,21 +189,26 @@
 
 
 /* ----------- секция digits ---------------- */
-
-.digits_margin_set{
-  margin: 100px auto;
+.digits_padding_set {
+  padding: 100px 0;
 }
 
 .table{
   width: 1100px;
   display: flex;
-  flex-wrap: wrap;
   justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.table_row-gap_l {
   row-gap: 60px;
+}
+
+.table_padding-top_l {
   padding-top: 60px;
 }
 
-.table__cell {
+.table__cell_size_l {
   width: 250px;
 }
 
@@ -182,8 +221,56 @@
 }
 
 .table__text {
-  line-height: 23px;
   font-size: 18px;
   font-weight: normal;
   margin: 20px 0;
 }
+
+.table__text_line-height_m {
+  line-height: 23px;
+}
+/* ------------ конец секции ----------------*/
+
+/* ----------- секция kaufman ---------------- */
+.kaufman_padding_set {
+  padding: 90px 0;
+}
+
+.section_text-theme_dark {
+  color: #ffffff
+}
+
+.table__cell_size_m {
+  width: 200px;
+}
+
+.table_padding-top_xl {
+  padding-top: 80px;
+}
+
+.table_row-gap_xl {
+  row-gap: 80px;
+}
+
+.table__text_line-height_l {
+  line-height: 1.2;
+}
+/* ------------ конец секции ----------------*/
+
+/* ----------- секция resources ---------------- */
+.resources_padding_set {
+  padding: 100px 0 217px 0;
+}
+
+.resources__logo-zone {
+  width: 1100px;
+  margin: 80px auto 0 auto;
+  display: flex;
+  justify-content: center;
+}
+
+.resources__link {
+  width: 270px;
+  height: 38px;
+}
+/* ------------ конец секции ----------------*/
