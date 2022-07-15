@@ -65,36 +65,66 @@
   height: 100vh;
   min-height: 600px;
   max-height: 756px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  background-color: #f2f2f2;
   /* выше установили ограничения для секции */
+}
+
+.header__link {
+  color: #2f80ed;
 }
 
 .logo {
   position: absolute;
+  width: 228px;
+  height: 32px;
 }
 
 .logo_place_header{
-
+  top: 34px;
+  left: 64px;
 }
 
 .header__title {
-
+  width: 730px;
+  line-height: 96px;
+  font-size: 102px;
+  font-weight: 600;
+  margin-left: 64px;
+  z-index: 2;
 }
 
 .header__subtitle {
+  margin: 0;
   position: absolute;
   width: 388px;
   bottom: 30px;
   left: 64px;
+  line-height: 25px;
+  font-size: 18px;
+  font-weight: normal;
+  z-index: 2;
 }
 
 .header__main-illustration {
+  position: absolute;
   width: 765px;
   height: 608px;
+  bottom: 0;
+  right: 0;
+  z-index: 1;
 }
 
 .header__square-pic {
+  position: absolute;
+  right: 0;
+  top: 64px;
   height: 568px;
   width: 568px;
+  background-color: #2f80ed;
+  
 }
 /* ------------ конец секции ----------------*/
 
@@ -274,3 +304,6 @@
   height: 38px;
 }
 /* ------------ конец секции ----------------*/
+
+
+/* --------------- секция footer ---------------- */
