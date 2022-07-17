@@ -7,16 +7,6 @@
 }
 
 /* -----------Миксы----------- */
-
-.section_size_m {
-  padding-top: 100px;
-  width: 80%;
-}
-
-.main-text {
-  font-family: 'Inter', Arial, sans-serif;
-}
-
 .block_centered {
   margin: 0 auto;
 }
@@ -61,25 +51,10 @@
 }
 
 /* ----------- секция header ---------------- */
-.header {
-  height: 100vh;
-  min-height: 600px;
-  max-height: 756px;
-  position: relative;
-  display: flex;
-  align-items: center;
-  background-color: #f2f2f2;
-  /* выше установили ограничения для секции */
-}
-
 .header__link {
   color: #2f80ed;
 }
 
-.logo {
-  width: 228px;
-  height: 32px;
-}
 
 .logo_place_header{
   position: absolute;
@@ -186,7 +161,6 @@
 }
 
 /* настройка правил для карточек */
-
 .cards__item {
   max-width: 240px;
 }
@@ -219,10 +193,6 @@
 
 
 /* ----------- секция digits ---------------- */
-.digits_padding_set {
-  padding: 100px 0;
-}
-
 .table{
   width: 1100px;
   display: flex;
@@ -262,10 +232,6 @@
 /* ------------ конец секции ----------------*/
 
 /* ----------- секция kaufman ---------------- */
-.kaufman_padding_set {
-  padding: 90px 0;
-}
-
 .section_text-theme_dark {
   color: #ffffff
 }
@@ -288,11 +254,6 @@
 /* ------------ конец секции ----------------*/
 
 /* ----------- секция resources ---------------- */
-
-.resources {
-  padding: 100px 0 217px 0;
-}
-
 .resources__logo-zone {
   width: 1100px;
   margin: 80px auto 0 auto;
@@ -306,17 +267,10 @@
   display: flex;
   justify-content: center;
 }
-
 /* ------------ конец секции ----------------*/
 
 
 /* --------------- секция footer ---------------- */
-
-.footer {
-  padding-top: 60px;
-  padding-bottom: 40px;
-}
-
 .footer__columns {
   width: 90%;
   display: flex;
