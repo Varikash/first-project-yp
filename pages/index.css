@@ -5,7 +5,6 @@
 @import url(../blocks/main-text/main-text.css);
 @import url(../blocks/block/_centered/block_centered.css);
 @import url(../blocks/text/_centered/text_centered.css);
-
 /* ------ конец ------ */
 @import url(../blocks/header/header.css);
 @import url(../blocks/header/__link/header__link.css);
@@ -22,7 +21,6 @@
 @import url(../blocks/two-columns/__headline/two-columns__headline.css);
 @import url(../blocks/two-columns/__paragraph/two-columns__paragraph.css);
 @import url(../blocks/two-columns/__span-accent/two-columns__span-accent.css);
-
 @import url(../blocks/techniques/techniques.css);
 @import url(../blocks/section-title/section-title.css);
 @import url(../blocks/section-subtitle/section-subtitle.css);
@@ -33,12 +31,27 @@
 @import url(../blocks/cards/__item/cards__item.css);
 @import url(../blocks/cards/__image/cards__image.css);
 @import url(../blocks/cards/__image/_size/cards__image_size_set.css);
+@import url(../blocks/cards/__title/cards__title.css);
+@import url(../blocks/cards/__description/cards__description.css);
 @import url(../blocks/section/_theme/section_theme_dark.css);
-
-
+@import url(../blocks/section/);
 @import url(../blocks/digits/digits.css);
+@import url(../blocks/table/table.css);
+@import url(../blocks/table/_row-gap/table_row-gap_l.css);
+@import url(../blocks/table/_row-gap/table_row-gap_xl.css);
+@import url(../blocks/table/_padding-top/table_padding-top_l.css);
+@import url(../blocks/table/_padding-top/table_padding-top_xl.css);
+@import url(../blocks/table/__cell/_size/table__cell_size_l.css);
+@import url(../blocks/table/__cell/_size/table__cell_size_m.css);
+@import url(../blocks/table/__cell/_theme/table__cell_theme_dark.css);
+@import url(../blocks/table/__heading/table__heading.css);
+@import url(../blocks/table/__text/table__text.css);
+@import url(../blocks/table/__text/_line-height/table__text_line-height_m.css);
+@import url(../blocks/table/__text/_line-height/table__text_line-height_l.css);
 @import url(../blocks/kaufman/kaufman.css);
 @import url(../blocks/resources/ressources.css);
+@import url(../blocks/resources/__logo-zone/resources__logo-zone.css);
+@import url(../blocks/resources/__link/resources__link.css);
 @import url(../blocks/footer/footer.css);
 @import url(../blocks/footer/__columns/footer__columns.css);
 @import url(../blocks/footer/__column/_content/footer__column_content_copyright.css);
