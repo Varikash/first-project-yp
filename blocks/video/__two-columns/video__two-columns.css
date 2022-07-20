@@ -1,0 +1,7 @@
+.video__two-columns {
+    display: flex;
+    justify-content: center;
+    column-gap: 20px;
+    position: relative;
+    bottom: -50px;
+}
