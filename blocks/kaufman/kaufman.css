@@ -1,3 +1,5 @@
 .kaufman {
   padding: 90px 0;
+  overflow: hidden;
+  position: relative;
 }

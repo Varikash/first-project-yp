@@ -8,6 +8,8 @@
 @import url(../blocks/section/_theme/section_theme_gray.css);
 @import url(../blocks/section/_theme/section_theme_dark.css);
 @import url(../blocks/link/_hover-effect/link_hover-effect_enable.css);
+@import url(../blocks/link/_transition_set/link_transition_set.css);
+@import url(../blocks/rotation/rotation.css);
 /* ------ конец ------ */
 @import url(../blocks/header/header.css);
 @import url(../blocks/header/__link/header__link.css);
@@ -54,7 +56,6 @@
 @import url(../blocks/khan/__book-container/khan__book-container.css);
 @import url(../blocks/khan/__book-pic/khan__book-pic.css);
 @import url(../blocks/khan/__buy-link/khan__buy-link.css);
-
 @import url(../blocks/digits/digits.css);
 @import url(../blocks/table/table.css);
 @import url(../blocks/table/_row-gap/table_row-gap_l.css);
@@ -69,6 +70,7 @@
 @import url(../blocks/table/__text/_line-height/table__text_line-height_m.css);
 @import url(../blocks/table/__text/_line-height/table__text_line-height_l.css);
 @import url(../blocks/kaufman/kaufman.css);
+@import url(../blocks/kaufman/__triangle/kaufman__triangle.css);
 @import url(../blocks/resources/ressources.css);
 @import url(../blocks/resources/__logo-zone/resources__logo-zone.css);
 @import url(../blocks/resources/__link/resources__link.css);
