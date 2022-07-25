@@ -71,6 +71,7 @@
 @import url(../blocks/table/__text/_line-height/table__text_line-height_l.css);
 @import url(../blocks/kaufman/kaufman.css);
 @import url(../blocks/kaufman/__triangle/kaufman__triangle.css);
+@import url(../blocks/section-title/_z-index/section-title_z-index.css);
 @import url(../blocks/resources/ressources.css);
 @import url(../blocks/resources/__logo-zone/resources__logo-zone.css);
 @import url(../blocks/resources/__link/resources__link.css);
